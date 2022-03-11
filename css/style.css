@@ -11,6 +11,7 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 a {
@@ -37,11 +38,78 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
+.header {
+  align-self: flex-start;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3.75rem;
+  align-items: center;
+}
+.hero .intro-heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.hero .intro-desc {
+  margin: 1.5rem 0;
+}
+
+.footer {
+  align-self: end;
+}
+.footer .sns-links {
+  display: flex;
+  gap: 1.25rem;
+}
+.footer .sns-links .sns-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  width: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  padding: 1.125rem;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+.footer .sns-links .sns-link:hover {
+  border-color: #e882e8;
+  background-color: #e882e8;
+}
+.footer .sns-links .sns-icon {
+  font-size: 1.125rem;
+}
+
 .page-container {
   max-width: 80rem;
   padding-inline: 5rem;
+  padding-block: 4rem;
+  margin: 0 auto;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.btn {
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background: white;
+  color: #674baf;
+  padding-inline: 4rem;
+  padding-block: 1.125rem;
+  border-radius: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.btn:hover {
+  background: #e882e8;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

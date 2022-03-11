@@ -1,8 +1,30 @@
 .page-container {
 	max-width: $max-width;
 	padding-inline: 5rem;
+	padding-block: 4rem;
+	margin: 0 auto;
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
+}
+
+.btn {
+	display: inline-block;
+	font-family: $ff-head-btn;
+	font-weight: $fw-body;
+	background: $clr-white;
+	color: $clr-primary;
+	padding-inline: 4rem;
+	padding-block: 1.125rem;
+	border-radius: 2rem;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.19);
+	cursor: pointer;
+	transition: all 0.5s ease;
+
+	&:hover {
+		background: $clr-secondary;
+		color: $clr-white;
+	}
 }

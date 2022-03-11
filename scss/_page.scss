@@ -16,3 +16,59 @@ h5,
 h6 {
 	font-family: $ff-head-btn;
 }
+
+// Header
+.header {
+	align-self: flex-start;
+}
+
+// Hero
+.hero {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 3.75rem;
+	align-items: center;
+
+	.intro {
+		&-heading {
+			font-size: 2.5rem;
+			font-weight: $fw-head;
+		}
+
+		&-desc {
+			margin: 1.5rem 0;
+		}
+	}
+}
+
+.footer {
+	align-self: end;
+
+	.sns-links {
+		display: flex;
+		gap: 1.25rem;
+
+		.sns-link {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			height: 2rem;
+			width: 2rem;
+			line-height: 2rem;
+			text-align: center;
+			padding: 1.125rem;
+			border: 2px solid $clr-white;
+			border-radius: 50%;
+			transition: all 0.5s ease;
+
+			&:hover {
+				border-color: $clr-secondary;
+				background-color: $clr-secondary;
+			}
+		}
+
+		.sns-icon {
+			font-size: 1.125rem;
+		}
+	}
+}
