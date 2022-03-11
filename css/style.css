@@ -21,6 +21,9 @@ a {
 body {
   min-height: 100vh;
   background-color: #674baf;
+  background-image: url("../images/bg-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
   font-family: "Open Sans", sans-serif;
   color: white;
 }/*# sourceMappingURL=style.css.map */

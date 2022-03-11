@@ -1,6 +1,9 @@
 body {
 	min-height: 100vh;
 	background-color: $clr-primary;
+	background-image: url('../images/bg-desktop.svg');
+	background-repeat: no-repeat;
+	background-size: auto 100%;
 	font-family: $ff-body;
 	color: $clr-white;
 }
