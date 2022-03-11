@@ -26,4 +26,22 @@ body {
   background-size: auto 100%;
   font-family: "Open Sans", sans-serif;
   color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+.page-container {
+  max-width: 80rem;
+  padding-inline: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
