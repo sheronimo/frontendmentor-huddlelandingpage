@@ -1,16 +1,18 @@
 .page-container {
 	max-width: $max-width;
-	padding-inline: 5rem;
+	padding-inline: 2.5rem;
 	padding-block: 4rem;
 	margin: 0 auto;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
+	gap: 5rem;
 }
 
 .btn {
+	text-align: center;
 	display: inline-block;
 	font-family: $ff-head-btn;
 	font-weight: $fw-body;
