@@ -21,12 +21,12 @@ a {
 
 body {
   min-height: 100vh;
-  background-color: #674baf;
+  background-color: hsl(257deg, 40%, 49%);
   background-image: url("../images/bg-desktop.svg");
   background-repeat: no-repeat;
   background-size: auto 100%;
   font-family: "Open Sans", sans-serif;
-  color: white;
+  color: hsl(0deg, 0%, 100%);
 }
 
 h1,
@@ -73,13 +73,13 @@ h6 {
   line-height: 2rem;
   text-align: center;
   padding: 1.125rem;
-  border: 2px solid white;
+  border: 2px solid hsl(0deg, 0%, 100%);
   border-radius: 50%;
   transition: all 0.5s ease;
 }
 .footer .sns-links .sns-link:hover {
-  border-color: #e882e8;
-  background-color: #e882e8;
+  border-color: hsl(300deg, 69%, 71%);
+  background-color: hsl(300deg, 69%, 71%);
 }
 .footer .sns-links .sns-icon {
   font-size: 1.125rem;
@@ -103,8 +103,8 @@ h6 {
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  background: white;
-  color: #674baf;
+  background: hsl(0deg, 0%, 100%);
+  color: hsl(257deg, 40%, 49%);
   padding-inline: 4rem;
   padding-block: 1.125rem;
   border-radius: 2rem;
@@ -113,8 +113,8 @@ h6 {
   transition: all 0.5s ease;
 }
 .btn:hover {
-  background: #e882e8;
-  color: white;
+  background: hsl(300deg, 69%, 71%);
+  color: hsl(0deg, 0%, 100%);
 }
 
 @media (max-width: 50rem) {
